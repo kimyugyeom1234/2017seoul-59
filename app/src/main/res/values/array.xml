@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="region">
+        <item>강원도</item>
+        <item>경기도</item>
+        <item>경상남도</item>
+        <item>경상북도</item>
+        <item>광주광역시</item>
+        <item>대구광역시</item>
+        <item>부산광역시</item>
+        <item>서울특별시</item>
+        <item>울산광역시</item>
+        <item>인천광역시</item>
+        <item>전라남도</item>
+        <item>전라북도</item>
+        <item>제주특별자치도</item>
+        <item>충청남도</item>
+        <item>충청북도</item>
+        <item>세종특별자치시</item>
+    </string-array>
+    <!--
+    강원도 01150615
+                02 		string 	경기도 02820250
+                03 		string 	경상남도 03880370
+                04 		string 	경상북도 04920310
+                05 		string 	광주광역시 05110590
+                06 		string 	대구광역시 06140132
+                07 		string 	대전광역시 07140106
+                08 		string 	부산광역시 08110141
+                09 		string 	서울특별시 09380104
+                10 		string 	울산광역시 10110620
+                11 		string 	인천광역시 11260630
+                12 		string 	전라남도 12730310
+                13 		string 	전라북도 13710253
+                14 		string 	제주특별자치도 14110130
+                15 		string 	충청남도 15210510
+                16 		string 	충청북도 16745250
+                17 		string 	세종특별자치시 17110109
+    -->
+</resources>

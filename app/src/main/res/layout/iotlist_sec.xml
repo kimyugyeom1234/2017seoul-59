@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:clickable="true"
+    android:id="@+id/lllist_sec"
+    android:longClickable="true"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="#0000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/iotname"
+        android:layout_width="0dp"
+        android:textColor="#B000"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/iotnum"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="#B000"
+        android:layout_weight="3"
+        android:text="TextView" />
+
+    <Switch
+        android:id="@+id/iotstatus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+    </LinearLayout>
+</RelativeLayout>

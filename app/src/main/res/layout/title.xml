@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/title_icon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/settingon"
+        android:layout_marginStart="10dp" />
+
+    <TextView
+        android:layout_centerVertical="true"
+        android:textColor="#000"
+        android:text="test"
+        android:textSize="25sp"
+        android:id="@+id/title_letter"
+        android:layout_toEndOf="@id/title_icon"
+        android:layout_height="30dp"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="2dp" />
+    <Button
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:layout_gravity="end"
+        android:id="@+id/logout"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="11dp"
+        android:background="@drawable/buttonbg"
+        android:layout_alignTop="@+id/title_letter"
+        android:layout_alignParentEnd="true" />
+    <ImageView
+        android:id="@+id/help"
+        android:src="@drawable/help"
+        android:clickable="true"
+        android:layout_marginTop="2dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="10dp"
+        android:visibility="invisible"
+        android:layout_alignTop="@id/title_letter"
+        android:layout_toStartOf="@id/logout" />
+</RelativeLayout>

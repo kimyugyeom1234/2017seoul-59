@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">SmartToday</string>
+
+    <string name="btn_apply">적용</string>
+    <string name="btn_submit">완료</string>
+    <string name="btn_confirm">확인</string>
+    <string name="btn_plus">추가</string>
+    <string name="btn_cancel">취소</string>
+    <string name="btn_delete">삭제</string>
+    <string name="btn_modi">수정</string>
+    <string name="btn_yes">예</string>
+    <string name="btn_no">아니오</string>
+    <string name="btn_discover">IoT 장치 찾기</string>
+    <string name="btn_regist">등록</string>
+    <string name="btn_close">종료</string>
+    <string name="btn_sign">신고하기</string>
+
+    <string name="signup_id">아이디(ID)</string>
+    <string name="signup_cofirm">중복 확인</string>
+    <string name="signup_pass">비밀번호</string>
+    <string name="signup_pass2">비밀번호 확인</string>
+    <string name="signup_name">이름</string>
+    <string name="signup_birth">생년월일</string>
+    <string name="signup_address">주소</string>
+    <string name="signup_phone">전화 번호</string>
+    <string name="signup_email">이메일(E-mail)</string>
+    <string name="signup_pass3">삭제에 필요한 비밀번호</string>
+    <string name="user_inout">출입여부</string>
+    <string name="user_in">출입</string>
+    <string name="user_out">외출</string>
+
+    <string name="signup_check">%s을(를) 입력하세요.</string>
+    <string name="password_check">비밀번호를 입력하세요.</string>
+
+    <string name="sign_id_check">아이디 혹은 비밀번호를 확인하여주세요.</string>
+    <string name="sign_id_overap">사용중인 아이디입니다.</string>
+    <string name="sign_id_none">아이디를 입력하세요.</string>
+    <string name="sign_id">사용가능한 아이디입니다,</string>
+    <string name="sign_none">아이디, 비밀번호를 정확히 입력해주세요.</string>
+    <string name="sign_pass_check">비밀번호를 확인해주세요.</string>
+
+    <string name="login">로그인 완료, %s님 환영합니다.</string>
+    <string name="logout">로그아웃하였습니다.</string>
+    <string name="text_login">log-in</string>
+    <string name="text_logout">Logout</string>
+
+    <string name="signup">회원가입</string>
+    <string name="signup_submit">화원가입을 완료했습니다.</string>
+
+    <string name="offline">인터넷 연결을 확인해 주세요.</string>
+
+    <string name="option_add">추가 옵션</string>
+    <string name="option_dayofweek">요일 반복</string>
+    <string name="option_color">색상 설정</string>
+    <string name="option_pop">중요도</string>
+
+    <string name="hint_userlist">목록 이름을 입력하세요.</string>
+    <string name="hint_userlist2">항목 이름을 입력하세요.</string>
+    <string name="hint_bus">정류장 이름을 입력하세요.</string>
+    <string name="hint_station">역명을 검색하세요.</string>
+
+    <string name="alert_title">제목을 입력하세요.</string>
+    <string name="alert_delete">삭제되었습니다.</string>
+    <string name="alert_network">네트워크에 연결되어있지않습니다.</string>
+    <string name="alert_close">뒤로 가기 버튼을 한번 더 누르시면 %s됩니다.</string>
+    <string name="alert_change">변경되었습니다.</string>
+    <string name="alert_userlogin">사용자 로그인</string>
+    <string name="alert_login">사용할 유저를 선택하세요.</string>
+    <string name="alert_update">마지막 업데이트 : </string>
+
+    <string name="title_warning">상황 확인</string>
+    <string name="title_del">삭제하시겠습니까?</string>
+    <string name="title_check">LastCheck</string>
+    <string name="title_iot">IoT</string>
+    <string name="title_setting">설정</string>
+    <string name="title_judge">상황 판단</string>
+    <string name="title_del2">사용자 삭제</string>
+
+    <string name="loading">LOADING..</string>
+
+    <string name="sign_up">sign-up</string>
+    <string name="setting_sec">보안등급 %s</string>
+
+    <string name="low">낮음</string>
+    <string name="middle">중간</string>
+    <string name="high">높음</string>
+
+    <string name="user_name">사용자 이름</string>
+    <string name="user_permission">권한</string>
+    <string name="nfc">NFC</string>
+    <string name="user_inouts">출입</string>
+
+    <string name="user_admin">관리자</string>
+    <string name="user_normal">일반</string>
+
+    <string name="title_bus">정류장 검색</string>
+    <string name="title_subway">지하철 역 검색</string>
+
+    <string name="alt_user">사용자 정보</string>
+
+
+    <string name="week_mon">월</string>
+    <string name="week_tue">화</string>
+    <string name="week_wed">수</string>
+    <string name="week_thu">목</string>
+    <string name="week_fri">금</string>
+    <string name="week_sat">토</string>
+    <string name="week_sun">일</string>
+</resources>

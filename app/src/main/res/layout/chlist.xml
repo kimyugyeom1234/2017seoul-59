@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:text="목록 추가"
+            android:textColor="#000"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/btnFav"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:clickable="true"
+            android:src="@drawable/favorite" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:maxLength="20"
+        android:maxLines="1" />
+
+    <LinearLayout
+        android:id="@+id/llcheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:gravity="right">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"></FrameLayout>
+
+        <TextView
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="end"
+            android:text="@string/option_add" />
+
+        <CheckBox
+            android:id="@+id/cb"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llitems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:visibility="gone"
+        >
+
+        <TextView
+            style="@style/TextStyle"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/option_dayofweek" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <ToggleButton
+                android:id="@+id/btnSun"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/dayofweek_back"
+                android:textColor="#f00"
+                android:textOff="@string/week_sun"
+                android:textOn="@string/week_sun" />
+
+            <ToggleButton
+                android:id="@+id/btnMon"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/dayofweek_back"
+                android:textColor="#000"
+                android:textOff="@string/week_mon"
+                android:textOn="@string/week_mon" />
+
+            <ToggleButton
+                android:id="@+id/btnTue"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/dayofweek_back"
+                android:textColor="#000"
+                android:textOff="@string/week_tue"
+                android:textOn="@string/week_tue" />
+
+            <ToggleButton
+                android:id="@+id/btnWed"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/dayofweek_back"
+                android:textColor="#000"
+                android:textOff="@string/week_wed"
+                android:textOn="@string/week_wed" />
+
+            <ToggleButton
+                android:id="@+id/btnThu"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/dayofweek_back"
+                android:textColor="#000"
+                android:textOff="@string/week_thu"
+                android:textOn="@string/week_thu" />
+
+            <ToggleButton
+                android:id="@+id/btnFri"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/dayofweek_back"
+                android:textColor="#000"
+                android:textOff="@string/week_fri"
+                android:textOn="@string/week_fri" />
+
+            <ToggleButton
+                android:id="@+id/btnSat"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/dayofweek_back"
+                android:textColor="#00f"
+                android:textOff="@string/week_sat"
+                android:textOn="@string/week_sat" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvcolor_test"
+            style="@style/TextStyle"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/option_color" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp">
+            <RadioButton
+                android:id="@+id/btnBlack"
+                style="@style/ToggleColorButton"
+                android:checked="true"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:background="@drawable/radio_btn_black"
+                />
+            <RadioButton
+                android:id="@+id/btnBue"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                style="@style/ToggleColorButton"
+                android:button="@null"
+                android:background="@drawable/radio_btn_blue"
+                />
+            <RadioButton
+                android:id="@+id/btnSBlue"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                style="@style/ToggleColorButton"
+                android:button="@null"
+                android:background="@drawable/radio_btn_skyblue"
+                />
+            <RadioButton
+                android:id="@+id/btnRed"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                style="@style/ToggleColorButton"
+                android:button="@null"
+                android:background="@drawable/radio_btn_red"
+                />
+            <RadioButton
+                android:id="@+id/btnOrange"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                style="@style/ToggleColorButton"
+                android:button="@null"
+                android:background="@drawable/radio_btn_orange"
+                />
+            <RadioButton
+                android:id="@+id/btnGreen"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                style="@style/ToggleColorButton"
+                android:button="@null"
+                android:background="@drawable/radio_btn_green"
+                />
+        </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/option_pop"
+            android:textSize="15sp"
+            style="@style/TextStyle"/>
+        <RatingBar
+            android:id="@+id/rating"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            style="@style/StyleRatingbar"
+            android:max="5"
+            android:numStars="5"
+            android:stepSize="1"/>
+    </LinearLayout>
+</LinearLayout>
+

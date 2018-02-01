@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#BDBDBD</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_list_background">#B2EBF4</color>
+    <color name="color_warning">#7f00</color>
+
+    <color name="color_dayofweek">#4641D9</color>
+    <color name="color_dayofweek_check">#0780c5</color>
+    <color name="color_logout">#1a8bcd</color>
+
+    <color name="color_red">#6f00</color>
+    <color name="color_orange">#66FFBB00</color>
+    <color name="color_skyblue">#6600D8FF</color>
+    <color name="color_green">#661DDB16</color>
+    <color name="color_blue">#662524FF</color>
+    <color name="color_black">#6000</color>
+
+    <color name="ncolor_red">#f00</color>
+    <color name="ncolor_orange">#FFBB00</color>
+    <color name="ncolor_skyblue">#00D8FF</color>
+    <color name="ncolor_green">#1DDB16</color>
+    <color name="ncolor_blue">#2524FF</color>
+    <color name="ncolor_black">#000</color>
+</resources>

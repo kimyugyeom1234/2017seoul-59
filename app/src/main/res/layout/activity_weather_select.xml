@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="100dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.oneproject.www.smartoday.weather_select">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:textSize="20sp"
+        android:text="지역 선택"/>
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:layout_height="wrap_content"/></LinearLayout>
+       <Button
+           android:id="@+id/btn_weathersubmit"
+           android:text="@string/btn_submit"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="1"/>
+
+</LinearLayout>

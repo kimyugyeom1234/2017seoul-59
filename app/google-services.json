@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "704507774985",
+    "firebase_url": "https://all-in-one-61c13.firebaseio.com",
+    "project_id": "all-in-one-61c13",
+    "storage_bucket": "all-in-one-61c13.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704507774985:android:8628e6367978ee0c",
+        "android_client_info": {
+          "package_name": "com.oneproject.www.smartoday"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704507774985-m3pa9ak3pfggtin3gfn6b24vdaspmn7a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkjipkpC6ZjXWc1OVE3BYuqbJOxpC7yQI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
